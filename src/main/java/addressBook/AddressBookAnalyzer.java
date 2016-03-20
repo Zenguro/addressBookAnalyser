@@ -47,7 +47,7 @@ public class AddressBookAnalyzer {
     }
 
     public static int countGender(Gender gender, AddressBook addressBook) {
-        if (addressBook == null) {
+        if (addressBook == null || gender == null) {
             return 0;
         } else {
             int count = 0;

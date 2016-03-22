@@ -37,6 +37,6 @@ public class AddressBookReader {
         if (inputStream == null) {
             throw new AddressBookFileDoesNotExistException("Could not find address book file with name '" + addressBookFileName + "'");
         }
-        return AddressBookReader.class.getClassLoader().getResourceAsStream(addressBookFileName);
+        return inputStream;
     }
 }

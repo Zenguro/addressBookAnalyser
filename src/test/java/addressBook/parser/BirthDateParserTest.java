@@ -16,7 +16,7 @@ public class BirthDateParserTest {
     //joda time has a threshold for ambivalent short year notation
     //example: if current year is 2016, than a string with
     // a year notation of
-    // 35 will parsed to 2035 but
+    // 35 will be parsed to 2035 but
     // 36 will be parsed to 1936
     int threshold = 20;
 
